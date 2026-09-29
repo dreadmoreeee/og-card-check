@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "og-card-check"
+version = "1.0.0"
+description = "Check how links to a page look when shared: Open Graph, X cards, images, and PNG previews."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Marvin Palencia" }]
+dependencies = ["Pillow>=10.1"]
+keywords = ["open-graph", "twitter-card", "seo", "social", "preview"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+og-card-check = "og_card_check.cli:main"
+
+[tool.setuptools]
+packages = ["og_card_check"]

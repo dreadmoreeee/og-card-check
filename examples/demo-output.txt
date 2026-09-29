@@ -1,0 +1,58 @@
+https://demarkstudio.ca  [HTTP 200]
+  WARN  title is 82 chars; likely truncated above ~60
+  WARN  twitter title is 82 chars; X truncates around 70
+  FALLBACK twitter:title missing: X falls back to og:title
+  FALLBACK twitter:description missing: X falls back to og:description
+  image og:image         HTTP 200 image/png 1200x630 49255 bytes
+  image twitter:image    HTTP 200 image/png 1200x630 49255 bytes
+  image favicon          HTTP 200 image/svg+xml ? None bytes
+  image apple-touch-icon HTTP 200 image/png ? 6088 bytes
+  preview: examples/demo\demarkstudio.ca\preview.png
+
+https://demo.demarkstudio.ca  [HTTP 200]
+  ERROR og:image is missing
+  WARN  og:title is missing
+  WARN  og:description is missing
+  WARN  og:url is missing
+  WARN  og:type is missing
+  WARN  twitter:card is missing; X shows a small summary at best
+  WARN  no <link rel=canonical>
+  INFO  og:site_name is missing
+  INFO  no apple-touch-icon declared
+  FALLBACK og:title missing: platforms fall back to <title>
+  FALLBACK twitter:title missing: X falls back to <title>
+  image favicon          HTTP 200 image/svg+xml ? None bytes
+  preview: examples/demo\demo.demarkstudio.ca\preview.png
+
+https://demo.demarkstudio.ca/riverside-pub/site  [HTTP 200]
+  ERROR og:image is missing
+  WARN  og:title is missing
+  WARN  og:description is missing
+  WARN  og:url is missing
+  WARN  og:type is missing
+  WARN  twitter:card is missing; X shows a small summary at best
+  WARN  title is 68 chars; likely truncated above ~60
+  INFO  og:site_name is missing
+  INFO  no apple-touch-icon declared
+  FALLBACK og:title missing: platforms fall back to <title>
+  FALLBACK og:description missing: platforms fall back to meta description
+  FALLBACK twitter:title missing: X falls back to <title>
+  FALLBACK twitter:description missing: X falls back to og:description
+  image favicon          HTTP 200 image/svg+xml ? None bytes
+  preview: examples/demo\demo.demarkstudio.ca_riverside-pub_site\preview.png
+
+https://marvin.demarkstudio.ca  [HTTP 200]
+  WARN  title is 68 chars; likely truncated above ~60
+  INFO  og:site_name is missing
+  INFO  og:image:width is missing (recommended)
+  INFO  og:image:height is missing (recommended)
+  INFO  og:image:alt is missing (recommended)
+  INFO  description is 186 chars; some platforms cut at ~160
+  INFO  no apple-touch-icon declared
+  FALLBACK twitter:title missing: X falls back to og:title
+  FALLBACK twitter:description missing: X falls back to og:description
+  FALLBACK twitter:image missing: X falls back to og:image
+  image og:image         HTTP 200 image/png 1200x630 134943 bytes
+  image favicon          HTTP 200 image/svg+xml ? 229 bytes
+  preview: examples/demo\marvin.demarkstudio.ca\preview.png
+
